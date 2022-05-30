@@ -1,0 +1,5 @@
+lst=list(map(int,input().split()))
+lst1=list(filter(lambda n:n%2==0,lst))
+print('even number',len(lst1))
+lst2=list(filter(lambda n:n%2!=0,lst))
+print('odd number',len(lst2))
